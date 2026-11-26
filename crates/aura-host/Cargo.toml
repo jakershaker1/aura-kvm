@@ -1,0 +1,11 @@
+[package]
+name = "aura-host"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+aura-protocol = { path = "../aura-protocol" }
+
+[dev-dependencies]
+aura-puck-agent = { path = "../aura-puck-agent" }

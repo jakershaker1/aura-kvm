@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Aura KVM
+Comment=Share keyboard and mouse with XREAL Aura (Android XR)
+Exec=aura-ui
+Terminal=false
+Categories=Utility;
+StartupNotify=true
