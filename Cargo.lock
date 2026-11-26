@@ -121,7 +121,7 @@ checksum = "1505bd5d3d116872e7271a6d4e16d81d0c8570876c8de68093a09ac269d8aac0"
 
 [[package]]
 name = "aura-host"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "aura-protocol",
  "aura-puck-agent",
@@ -129,18 +129,18 @@ dependencies = [
 
 [[package]]
 name = "aura-protocol"
-version = "0.1.0"
+version = "1.0.0"
 
 [[package]]
 name = "aura-puck-agent"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "aura-protocol",
 ]
 
 [[package]]
 name = "aura-ui"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "aura-host",
  "aura-protocol",

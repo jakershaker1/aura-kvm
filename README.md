@@ -2,6 +2,19 @@
 
 Share your **macOS, Linux (Wayland & X11), or Windows** keyboard and mouse seamlessly with **XREAL Aura glasses** running **Android XR** through the Compute Puck—**no root required**.
 
+## Downloads (v1.0.0)
+
+Prebuilt archives are available on the [GitHub Releases page](https://github.com/jakershaker1/aura-kvm/releases/latest):
+
+| Platform | Archive | Status |
+| --- | --- | --- |
+| **macOS (Apple Silicon)** | `aura-kvm-v1.0.0-macos-arm64.zip` | **Tested on XREAL Aura hardware** |
+| **Windows (x86_64)** | `aura-kvm-v1.0.0-windows-x86_64.zip` | Untested (CI-built & unit-tested only) |
+| **Linux (x86_64)** | `aura-kvm-v1.0.0-linux-x86_64.tar.gz` | Untested (CI-built & unit-tested only) |
+
+> [!NOTE]
+> **Platform testing caveat:** Only **macOS** has been verified end-to-end on real XREAL Aura Compute Puck hardware so far. Windows and Linux archives are compiled from the portable Win32/`evdev` backends and pass CI builds/unit tests, but remain untested on physical hardware—please open an issue with logs (`--verbose`) if you hit any platform quirks.
+
 ```text
 +-----------------------------------+        USB / Wireless ADB         +----------------------------------+
 | Host Computer (macOS/Linux/Win)   |  <====== TCP :27190 (AKVM) =====> | XREAL Aura Compute Puck (ARM64)  |
