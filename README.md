@@ -155,4 +155,4 @@ cargo test -p aura-host --test integration_loopback
 
 ## License
 
-Dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your option.
+Licensed under the [GNU General Public License v3.0](LICENSE) (`GPL-3.0-only`).
